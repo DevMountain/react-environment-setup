@@ -12,6 +12,7 @@ class App extends Component {
         </div>
         <p className="App-intro">
           To get started, edit <code>src/App.js</code> and save to reload.
+          // <a href="http://localhost:3030/auth/login"> Login </a>
           <a href="{process.env.REACT_APP_BASEURL}/auth/login"> Login </a>
           <br/>
           <a href="{process.env.REACT_APP_BASEURL}/auth/logout"> Logout </a>
@@ -19,7 +20,7 @@ class App extends Component {
           Notice I cannot get the port enviroment variable,
           This is safety measure from React to make sure they dont get variables
           they dont want you to have access to
-          -- {process.env.port} --
+          -- {process.env.PORT} --
           <br/>
           We can get the NODE_ENV property -- {process.env.NODE_ENV} --
           <br/>

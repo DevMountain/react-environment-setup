@@ -2,6 +2,7 @@
   "name": "prep-react-host",
   "version": "0.1.0",
   "private": true,
+  "main":"server/server.js",
   "dependencies": {
     "dotenv": "^4.0.0",
     "express": "^4.15.4",
@@ -15,5 +16,5 @@
     "test": "react-scripts test --env=jsdom",
     "eject": "react-scripts eject"
   },
-  "proxy":"http://localhost:3030"
+  "proxy": "http://localhost:3030"
 }

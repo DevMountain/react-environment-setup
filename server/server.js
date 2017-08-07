@@ -4,11 +4,12 @@ const app = express();
 const path = require('path');
 
 const port = process.env.PORT
-console.log(port);
 
+// This will serve static files from our build folder
 app.use(express.static(`${__dirname}/../build`));
 
 
+// All Other EndPoints
 
 
 // This is to work browser history instead of hash history.
